@@ -13,7 +13,7 @@ export const removeReducer = (state = initialState, action) => {
         case 'REMOVE_FEATURE':
             return {
                 ...state,
-                feature: ''
+                feature: []
             };
         default:
             return state;

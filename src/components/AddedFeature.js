@@ -1,6 +1,4 @@
 import React from 'react';
-import { connect } from 'tls';
-import { removeFeature } from '../actions/removeAction';
 
 const AddedFeature = props => {
   return (
@@ -12,11 +10,4 @@ const AddedFeature = props => {
   );
 };
 
-const mapStateToProps = state => {
-  console.log(state)
-  return {
-    feature: state.removeReducer.feature
-  };
-};
-
-export default connect(mapStateToProps, {removeFeature})(AddedFeature);
+export default AddedFeature;
