@@ -19,10 +19,5 @@ const AddedFeatures = props => {
   );
 };
 
-const mapStateToProps = state => {
-  return {
 
-  }
-}
-
-export default connect(mapStateToProps, {})(AddedFeatures);
+export default AddedFeatures;
