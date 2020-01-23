@@ -1,3 +1,5 @@
-export const buyItem = item => {
-    return { type: 'ADD_FEATURE', payload: item}
+export const ADD_FEATURE = 'ADD_FEATURE';
+
+export const buyItem = feature => {
+    return { type: 'ADD_FEATURE', payload: feature}
   };
